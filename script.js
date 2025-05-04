@@ -4,9 +4,10 @@ function firstNonRepeatedChar(str) {
 		if(str.indexOf(str[i])== str.lastIndexOf(str[i])){
 			return str[i]
 		}
-		return null;
+		
 	}
+	return null;
 	
 }
-//const input = prompt("Enter a string");
+const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
